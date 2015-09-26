@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.kingbell.august_test_redo.fragmentA"
+    android:orientation="horizontal"
+    android:background="#C1C1C1">
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/redToggle"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/greenToggle"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/blueToggle"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"/>
+</LinearLayout>
